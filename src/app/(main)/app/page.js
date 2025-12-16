@@ -146,7 +146,7 @@ export default function HomePage() {
                     {summary ? (
                         <>
                             <button onClick={handleCopy}
-                                className='absolute top-4 right-4 text-white flex items-center gap-2 bg-gray-800 rounded-2xl w-fit px-2 py-1 text-xs hover:bg-gray-700 hover:cursor-pointer'>
+                                className='absolute top-14 right-4 text-white flex items-center gap-2 bg-gray-800 rounded-2xl w-fit px-2 py-1 text-xs hover:bg-gray-700 hover:cursor-pointer'>
                                 <img src="copy.png" alt="" className='w-3 h-3 invert' />
                             </button>
                             <p className='text-white text-sm pr-16'>{summary}</p>
