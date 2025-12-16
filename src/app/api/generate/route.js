@@ -13,7 +13,7 @@ export async function POST(request) {
     
         const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash"});
     
-        const prompt = `Summarize the following text in one single, concise sentence ${text}`;
+        const prompt = `Summarize the following text in a note go not just cut it instaed craete a summary of it with all the facts intact, concise sentence ${text}`;
     
         const result = await model.generateContent(prompt);
         const response = await result.response;
