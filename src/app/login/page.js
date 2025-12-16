@@ -107,7 +107,7 @@ export default function LoginPage() {
                 <p className="block font-medium text-3xl mx-auto text-white mb-2">Log In</p>
                 <form
                     onSubmit={handleSubmit}
-                    className='bg-slate-950 text-white border border-black shadow-2xl rounded-lg p-5 sm:w-1/3 w-3/4 hover:scale-105 transition ease-in-out duration-700'
+                    className='bg-slate-950 text-white border border-black shadow-2xl rounded-lg p-5 sm:w-sm w-3/4 hover:scale-105 transition ease-in-out duration-700'
                 >
                     <label className="block font-medium mb-2" htmlFor="email">Email</label>
                     <input

@@ -108,7 +108,7 @@ export default function RegisterPage() {
                 <p className='block font-medium text-3xl mx-auto text-white mb-2'>Create an account</p>
                 <form
                     onSubmit={handleSubmit}
-                    className='bg-slate-950 text-white border-black border-2 shadow-2xl rounded-lg p-5 md:w-1/3 w-3/4 hover:scale-105 transition ease-in-out duration-700'
+                    className='bg-slate-950 text-white border-black border-2 shadow-2xl rounded-lg p-5 md:w-sm w-3/4 hover:scale-105 transition ease-in-out duration-700'
                 >
                     <label className='block font-medium mb-2' htmlFor="name">Name</label>
                     <input
