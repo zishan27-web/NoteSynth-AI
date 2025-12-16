@@ -142,7 +142,7 @@ export default function HomePage() {
                 transition={Bounce}
             />
             <div className='h-screen w-full md:w-3/5 mx-auto relative flex flex-col justify-around'>
-                <div className='h-3/5 bg-slate-950 p-5 mt-10 m-2  rounded-xl border-gray-500 border'>
+                <div className='h-3/5 bg-slate-950 p-5 mt-10 m-2  rounded-xl border-gray-500 border overflow-auto'>
                     {summary ? (
                         <div className='relative w-full'>
                             <button onClick={handleCopy}
