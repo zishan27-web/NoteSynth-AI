@@ -1,6 +1,6 @@
 // src/app/(main)/layout.js
 'use client';
-
+import "../../app/globals.css";
 import { useState } from 'react';
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";

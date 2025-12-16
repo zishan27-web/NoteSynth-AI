@@ -1,6 +1,26 @@
 @import "tailwindcss";
-/* For Firefox */
-* {
-  scrollbar-width: thin; /* "auto" or "thin" */
-  scrollbar-color: #3b424a black; /* scroll thumb and track colors */
+
+/* ... existing styles ... */
+
+/* 1. Width of the scrollbar */
+::-webkit-scrollbar {
+  width: 6px;   /* Vertical scrollbar width */
+  height: 6px;  /* Horizontal scrollbar height */
+}
+
+/* 2. The "Track" (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: transparent; /* Matches your bg-slate-950 */
+}
+
+/* 3. The "Thumb" (the moving part) */
+::-webkit-scrollbar-thumb {
+  background: #242d3b; /* A lighter slate color (slate-700) */
+  border-radius: 10px;
+  border: 1px solid #000000; 
+}
+
+/* 4. Hover effect on the thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #f59e0b; /* Turns Amber when you grab it! Matches your buttons */
 }

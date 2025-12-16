@@ -142,14 +142,14 @@ export default function HomePage() {
                 transition={Bounce}
             />
             <div className='h-screen w-full md:w-3/5 mx-auto relative flex flex-col justify-around'>
-                <div className='h-3/5 bg-slate-950 p-5 mt-10 m-2  rounded-xl border-gray-500 border overflow-auto'>
+                <div className='h-3/5 bg-slate-950 p-5 mt-10 m-2  rounded-xl border-gray-500 border overflow-y-auto '>
                     {summary ? (
                         <div className='relative w-full'>
                             <button onClick={handleCopy}
                                 className='absolute top-0 right-0 text-white flex items-center gap-2 bg-gray-800 rounded-2xl w-fit px-2 py-1 text-xs hover:bg-gray-700 hover:cursor-pointer'>
                                 <img src="copy.png" alt="" className='w-3 h-3 invert' />
                             </button>
-                            <p className='text-white text-sm pr-16'>{summary}</p>
+                            <p className='text-white text-sm pr-4'>{summary}</p>
                         </div>)
                         :
                         (<h1 className='text-center text-gray-600 mb-5'>Paste your text below to generate a summary.</h1>)
